@@ -30,8 +30,9 @@ class ResetPasswordViewController: UIViewController {
     @IBOutlet weak var resultTextView: UITextView!
 
     @IBOutlet weak var resetPasswordButton: UIButton!
-    @IBOutlet weak var signOutButton: UIButton!
 
+    var onCancel: (() -> Void)?
+    
     var nativeAuth: MSALNativeAuthPublicClientApplication!
 
     var verifyCodeViewController: VerifyCodeViewController?
@@ -60,6 +61,12 @@ class ResetPasswordViewController: UIViewController {
         retrieveCachedAccount()
     }
 
+    @IBAction func cancelPressed(_: Any) {
+        onCancel?()
+        
+        dismiss(animated: true)
+    }
+    
     @IBAction func resetPasswordPressed(_: Any) {
         guard let email = emailTextField.text, !email.isEmpty
         else {
@@ -96,8 +103,7 @@ class ResetPasswordViewController: UIViewController {
         let signedIn = (accountResult != nil)
 
         resetPasswordButton.isEnabled = !signedIn
-        signOutButton.isEnabled = signedIn
-    }
+     }
 
     func retrieveCachedAccount() {
         accountResult = nativeAuth.getNativeAuthUserAccount()

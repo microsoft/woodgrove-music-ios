@@ -30,6 +30,7 @@ class NewPasswordViewController: UIViewController {
 
     @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var continueButton: WgButton!
 
     @IBAction func cancelPressed(_: Any) {
         onCancel?()
@@ -41,7 +42,9 @@ class NewPasswordViewController: UIViewController {
         guard let password = passwordTextField.text else {
             return
         }
-
+        
+        continueButton.StartAnimation()
+        
         onSubmit?(password)
     }
 }

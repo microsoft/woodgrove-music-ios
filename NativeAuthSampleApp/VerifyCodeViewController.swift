@@ -30,8 +30,10 @@ class VerifyCodeViewController: UIViewController {
     var onCancel: (() -> Void)?
     @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var codeTextField: UITextField!
+    @IBOutlet weak var continueButton: WgButton!
 
     @IBAction func resendPressed(_: Any) {
+        continueButton.StopAnimation()
         onResend?()
     }
 
@@ -42,6 +44,8 @@ class VerifyCodeViewController: UIViewController {
     }
 
     @IBAction func submitPressed(_: Any) {
+        
+        continueButton.StartAnimation()
         guard let code = codeTextField.text else {
             return
         }

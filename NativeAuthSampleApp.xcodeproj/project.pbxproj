@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D4CFFDE2B6820F500FC03F8 /* ProtectedAPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4CFFDD2B6820F500FC03F8 /* ProtectedAPIViewController.swift */; };
+		64101FB42BD1013E00D912D4 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64101FB32BD1013E00D912D4 /* LibraryViewController.swift */; };
+		64101FB62BD1055100D912D4 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64101FB52BD1055100D912D4 /* HelpViewController.swift */; };
+		641E80972BD4DAE400A62D45 /* WgTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E80962BD4DAE400A62D45 /* WgTextField.swift */; };
+		641E80992BD4DAFE00A62D45 /* WgButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E80982BD4DAFE00A62D45 /* WgButton.swift */; };
+		641E809B2BD4F7B100A62D45 /* WgForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641E809A2BD4F7B100A62D45 /* WgForm.swift */; };
+		642535682BCE635A00A2204C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 642535672BCE635A00A2204C /* HomeViewController.swift */; };
+		6425356D2BCF743900A2204C /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6425356C2BCF743900A2204C /* CustomTableViewCell.swift */; };
 		9B08477429969264003BA4B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B08477329969264003BA4B4 /* AppDelegate.swift */; };
 		9B08477629969264003BA4B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B08477529969264003BA4B4 /* SceneDelegate.swift */; };
-		9B08477829969264003BA4B4 /* EmailAndPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B08477729969264003BA4B4 /* EmailAndPasswordViewController.swift */; };
+		9B08477829969264003BA4B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B08477729969264003BA4B4 /* LoginViewController.swift */; };
 		9B08477B29969264003BA4B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B08477929969264003BA4B4 /* Main.storyboard */; };
 		9B08477D29969265003BA4B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B08477C29969265003BA4B4 /* Assets.xcassets */; };
 		9B08478029969265003BA4B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B08477E29969265003BA4B4 /* LaunchScreen.storyboard */; };
 		9B14AE4D29D204EA006F7C51 /* VerifyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14AE4C29D204EA006F7C51 /* VerifyCodeViewController.swift */; };
 		9B14AE5B29D33B0D006F7C51 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14AE5A29D33B0D006F7C51 /* ResetPasswordViewController.swift */; };
 		9B14AE5D29D33CEB006F7C51 /* NewPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B14AE5C29D33CEB006F7C51 /* NewPasswordViewController.swift */; };
-		9B2B493B29F2D69000E586FA /* CustomAttributesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B492D29F2D69000E586FA /* CustomAttributesViewController.swift */; };
-		9B9DD51A2A053E8700042B43 /* ObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DD5192A053E8700042B43 /* ObjCViewController.m */; };
-		9BA194A329F820980023905D /* EmailAndCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA1949529F820980023905D /* EmailAndCodeViewController.swift */; };
 		9BE0CE6029EEE00B00F2C77F /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE0CE5F29EEE00B00F2C77F /* Configuration.swift */; };
-		9BFB68EC29DEE5BF006F0CF4 /* WebFallbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFB68EB29DEE5BF006F0CF4 /* WebFallbackViewController.swift */; };
 		DE00FD9E2B8CADF100DB3A77 /* MSAL in Frameworks */ = {isa = PBXBuildFile; productRef = DE00FD9D2B8CADF100DB3A77 /* MSAL */; };
 /* End PBXBuildFile section */
 
@@ -39,11 +41,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8D4CFFDD2B6820F500FC03F8 /* ProtectedAPIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedAPIViewController.swift; sourceTree = "<group>"; };
+		64101FB32BD1013E00D912D4 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		64101FB52BD1055100D912D4 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		641E80962BD4DAE400A62D45 /* WgTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WgTextField.swift; sourceTree = "<group>"; };
+		641E80982BD4DAFE00A62D45 /* WgButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WgButton.swift; sourceTree = "<group>"; };
+		641E809A2BD4F7B100A62D45 /* WgForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WgForm.swift; sourceTree = "<group>"; };
+		642535672BCE635A00A2204C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6425356C2BCF743900A2204C /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		9B08477029969264003BA4B4 /* NativeAuthSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeAuthSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B08477329969264003BA4B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B08477529969264003BA4B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9B08477729969264003BA4B4 /* EmailAndPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAndPasswordViewController.swift; sourceTree = "<group>"; };
+		9B08477729969264003BA4B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9B08477A29969264003BA4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B08477C29969265003BA4B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B08477F29969265003BA4B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,13 +59,7 @@
 		9B14AE4C29D204EA006F7C51 /* VerifyCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCodeViewController.swift; sourceTree = "<group>"; };
 		9B14AE5A29D33B0D006F7C51 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		9B14AE5C29D33CEB006F7C51 /* NewPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordViewController.swift; sourceTree = "<group>"; };
-		9B2B492D29F2D69000E586FA /* CustomAttributesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAttributesViewController.swift; sourceTree = "<group>"; };
-		9B9DD5172A053E8600042B43 /* NativeAuthSampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeAuthSampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		9B9DD5182A053E8700042B43 /* ObjCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCViewController.h; sourceTree = "<group>"; };
-		9B9DD5192A053E8700042B43 /* ObjCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCViewController.m; sourceTree = "<group>"; };
-		9BA1949529F820980023905D /* EmailAndCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailAndCodeViewController.swift; sourceTree = "<group>"; };
 		9BE0CE5F29EEE00B00F2C77F /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		9BFB68EB29DEE5BF006F0CF4 /* WebFallbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebFallbackViewController.swift; sourceTree = "<group>"; };
 		9BFB690129E0002B006F0CF4 /* NativeAuthSampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NativeAuthSampleApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		641E80932BD4DA9200A62D45 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				641E80962BD4DAE400A62D45 /* WgTextField.swift */,
+				641E80982BD4DAFE00A62D45 /* WgButton.swift */,
+				641E809A2BD4F7B100A62D45 /* WgForm.swift */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
 		9B08476729969264003BA4B4 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +105,7 @@
 		9B08477229969264003BA4B4 /* NativeAuthSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				641E80932BD4DA9200A62D45 /* CustomViews */,
 				9B08477329969264003BA4B4 /* AppDelegate.swift */,
 				9B08477529969264003BA4B4 /* SceneDelegate.swift */,
 				9BE0CE5F29EEE00B00F2C77F /* Configuration.swift */,
@@ -103,6 +116,7 @@
 				9B08477C29969265003BA4B4 /* Assets.xcassets */,
 				9B08477E29969265003BA4B4 /* LaunchScreen.storyboard */,
 				9B08478129969265003BA4B4 /* Info.plist */,
+				6425356C2BCF743900A2204C /* CustomTableViewCell.swift */,
 			);
 			path = NativeAuthSampleApp;
 			sourceTree = "<group>";
@@ -119,25 +133,13 @@
 		9B73CAD929F6DAC200FC7129 /* Scenario View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				9B08477729969264003BA4B4 /* EmailAndPasswordViewController.swift */,
-				9BA1949529F820980023905D /* EmailAndCodeViewController.swift */,
-				9B2B492D29F2D69000E586FA /* CustomAttributesViewController.swift */,
+				9B08477729969264003BA4B4 /* LoginViewController.swift */,
 				9B14AE5A29D33B0D006F7C51 /* ResetPasswordViewController.swift */,
-				9BFB68EB29DEE5BF006F0CF4 /* WebFallbackViewController.swift */,
-				8D4CFFDD2B6820F500FC03F8 /* ProtectedAPIViewController.swift */,
-				9B9125012A0A90DB006F91E8 /* Objective-C Scenario */,
+				642535672BCE635A00A2204C /* HomeViewController.swift */,
+				64101FB32BD1013E00D912D4 /* LibraryViewController.swift */,
+				64101FB52BD1055100D912D4 /* HelpViewController.swift */,
 			);
 			name = "Scenario View Controllers";
-			sourceTree = "<group>";
-		};
-		9B9125012A0A90DB006F91E8 /* Objective-C Scenario */ = {
-			isa = PBXGroup;
-			children = (
-				9B9DD5182A053E8700042B43 /* ObjCViewController.h */,
-				9B9DD5192A053E8700042B43 /* ObjCViewController.m */,
-				9B9DD5172A053E8600042B43 /* NativeAuthSampleApp-Bridging-Header.h */,
-			);
-			name = "Objective-C Scenario";
 			sourceTree = "<group>";
 		};
 		9BB32E4A29A6750800BD7D89 /* Frameworks */ = {
@@ -226,18 +228,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4CFFDE2B6820F500FC03F8 /* ProtectedAPIViewController.swift in Sources */,
-				9BFB68EC29DEE5BF006F0CF4 /* WebFallbackViewController.swift in Sources */,
+				64101FB42BD1013E00D912D4 /* LibraryViewController.swift in Sources */,
+				641E809B2BD4F7B100A62D45 /* WgForm.swift in Sources */,
 				9B14AE4D29D204EA006F7C51 /* VerifyCodeViewController.swift in Sources */,
-				9B08477829969264003BA4B4 /* EmailAndPasswordViewController.swift in Sources */,
-				9B9DD51A2A053E8700042B43 /* ObjCViewController.m in Sources */,
+				9B08477829969264003BA4B4 /* LoginViewController.swift in Sources */,
+				641E80972BD4DAE400A62D45 /* WgTextField.swift in Sources */,
 				9B14AE5D29D33CEB006F7C51 /* NewPasswordViewController.swift in Sources */,
+				641E80992BD4DAFE00A62D45 /* WgButton.swift in Sources */,
 				9B14AE5B29D33B0D006F7C51 /* ResetPasswordViewController.swift in Sources */,
-				9B2B493B29F2D69000E586FA /* CustomAttributesViewController.swift in Sources */,
 				9B08477429969264003BA4B4 /* AppDelegate.swift in Sources */,
+				64101FB62BD1055100D912D4 /* HelpViewController.swift in Sources */,
 				9BE0CE6029EEE00B00F2C77F /* Configuration.swift in Sources */,
-				9BA194A329F820980023905D /* EmailAndCodeViewController.swift in Sources */,
+				642535682BCE635A00A2204C /* HomeViewController.swift in Sources */,
 				9B08477629969264003BA4B4 /* SceneDelegate.swift in Sources */,
+				6425356D2BCF743900A2204C /* CustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
