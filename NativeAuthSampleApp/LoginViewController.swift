@@ -193,6 +193,9 @@ class LoginViewController: UIViewController {
             attributes["country"] = country
         }
         
+        // Custom attribute with fixed value
+        attributes["extension_0cae61cc83e94edd978ec2fde3c5f2f3_SpecialDiet"] = "Eggs"
+        
         print("Signing up with email \(email) and password")
         
         signUpButton.StartAnimation()
